@@ -41,7 +41,7 @@ class PageOrientation(Enum):
 @dataclass
 class PDFConfig:
     """Configuración para la generación del PDF."""
-    title: str = "DóndeEstásCR7"
+    title: str = "Snippets 2025"
     author: str = "DóndeEstásCR7"
     date_format: str = "%d/%m/%Y"
     font_size: FontSize = FontSize.SCRIPT

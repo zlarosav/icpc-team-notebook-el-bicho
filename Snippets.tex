@@ -3,16 +3,41 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish]{babel}
-\usepackage{minted}
-\renewcommand{\MintedPygmentize}{pygmentize}
+\usepackage{listings}
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{geometry}
-\geometry{margin=1in}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{parskip}
+
+\geometry{landscape,margin=0.75in}
 \hypersetup{colorlinks=true,linkcolor=blue}
 
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% Configuración para listings
+\lstset{
+    language=C++,
+    basicstyle=\scriptsize\ttfamily,
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{green},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny,
+    numbersep=5pt,
+    breaklines=true,
+    breakatwhitespace=true,
+    showstringspaces=false,
+    tabsize=2,
+    frame=single,
+    framerule=0.3pt,
+    rulecolor=\color{black},
+    escapechar=@,
+    xleftmargin=15pt,
+    xrightmargin=5pt
+}
 
 \title{DóndeEstásCR7}
 \author{DóndeEstásCR7}
@@ -22,38 +47,44 @@
 \maketitle
 \tableofcontents
 \newpage
+\setlength{\columnsep}{1cm}
+\begin{multicols}{2}
 \section*{Bit Manipulation}
 \addcontentsline{toc}{section}{Bit Manipulation}
+\textit{Técnicas para manipular bits individuales y operaciones a nivel de bit. Incluye macros útiles para competencias de programación.}
+\vspace{0.3cm}
 \subsection*{1.1 Bits}
 \addcontentsline{toc}{subsection}{1.1 Bits}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\textit{Macros esenciales para manipulación de bits: verificar potencias de 2, establecer/limpiar bits, contar bits, y operaciones con LSB/MSB.}
+\vspace{0.1cm}
+\begin{lstlisting}
 using ull = unsigned long long;
 const ull UNSIGNED_LL_MAX = 18'446'744'073'709'551'615;
 #define isPowerOfTwo(S) ((S) && !((S) & ((S) - 1))) // Verifica si S es potencia de dos (y distinto de cero)
-#define nearestPowerOfTwo(S) (1LL << lround(log2(S))) // Retorna la potencia de dos más cercana a S
+#define nearestPowerOfTwo(S) (1LL << lround(log2(S))) // Retorna la potencia de dos mas cercana a S
 #define modulo(S, N) ((S) & ((N) - 1)) // Calcula S % N cuando N es potencia de dos
 
-#define isOn(S, i) ((S) & (1LL<<(i))) // Verifica si el bit está encendido (bit en 1)
+#define isOn(S, i) ((S) & (1LL<<(i))) // Verifica si el bit esta encendido (bit en 1)
 #define setBit(S, i) ((S) |= (1LL<<(i))) // Enciende el bit (Lo pone en 1)
 #define clearBit(S, i) ((S) &= ~(1LL<<(i))) // Apaga el bit (Lo pone en 0)
 #define toggleBit(S, i) ((S) ^= (1LL<<(i))) // Invierte el estado del bit (0 <-> 1)
 #define setAll(S, n) ((S) = ((n)>=64 ? ~0LL : (1LL << (n))-1)) // Enciende los primeros 'n' bits (idx-0)
 
 #define lsb(S) ((S) & -(S)) // Extrae el bit menos significativo 0100 (Least Significant Bit)
-#define idxLastBit(x) __builtin_ctzll(x) // Número de ceros a la derecha (Posición del LSB, idx-0)
-#define msb(S) (1LL << (63 - __builtin_clzll(S))) // Extrae el bit màs significativo 0100 (Most Significant Bit)
-#define idxFirstBit(x) (63 - __builtin_clzll(x)) // Posición del MSB (63 - ceros a la izquierda, idx-0)
+#define idxLastBit(x) __builtin_ctzll(x) // Numero de ceros a la derecha (Posicion del LSB, idx-0)
+#define msb(S) (1LL << (63 - __builtin_clzll(S))) // Extrae el bit mas significativo 0100 (Most Significant Bit)
+#define idxFirstBit(x) (63 - __builtin_clzll(x)) // Posicion del MSB (63 - ceros a la izquierda, idx-0)
 #define countAllOnes(x) __builtin_popcountll(x)
-#define turnOffLastBit(S) ((S) & ((S) - 1)) // Apaga el último bit encendido (el menos significativo)
-#define turnOnLastZero(S) ((S) | ((S) + 1)) // Enciende el último cero menos significativo
-#define turnOffLastConsecutiveBits(S) ((S) & ((S) + 1)) // Apaga todos los bits encendidos más a la derecha consecutivos
-#define turnOnLastConsecutiveZeroes(S) ((S) | ((S) - 1)) // Enciende los ceros consecutivos más a la derecha
+#define turnOffLastBit(S) ((S) & ((S) - 1)) // Apaga el ultimo bit encendido (el menos significativo)
+#define turnOnLastZero(S) ((S) | ((S) + 1)) // Enciende el ultimo cero menos significativo
+#define turnOffLastConsecutiveBits(S) ((S) & ((S) + 1)) // Apaga todos los bits encendidos mas a la derecha consecutivos
+#define turnOnLastConsecutiveZeroes(S) ((S) | ((S) - 1)) // Enciende los ceros consecutivos mas a la derecha
 
-// Máscara de bits (mask -> subconjunto) O(2^N)
+// Mascara de bits (mask -> subconjunto) O(2^N)
 for (int mask = 0; mask < (1 << N); mask++)
 
-// Recorrer subconjuntos de un superconjunto (menos el vacío)
-int b = 0b1011; // Representación binaria de un decimal en int
+// Recorrer subconjuntos de un superconjunto (menos el vacio)
+int b = 0b1011; // Representacion binaria de un decimal en int
 for (int i = b; i; i = (i - 1) & b) {
   cout << bitset<4>(i) << "\n";
 }
@@ -64,13 +95,18 @@ void printBin(ll x) {
     cout << ((x >> i) & 1);
   cout << '\n';
 }
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
+\vspace{0.6cm}
 \section*{Graph}
 \addcontentsline{toc}{section}{Graph}
+\textit{Algoritmos de grafos: DFS, BFS, componentes fuertemente conexas, y otras estructuras de datos para problemas de grafos.}
+\vspace{0.3cm}
 \subsection*{2.1 Scc}
 \addcontentsline{toc}{subsection}{2.1 Scc}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\textit{Algoritmo de Tarjan para encontrar componentes fuertemente conexas (SCC) en un grafo dirigido.}
+\vspace{0.1cm}
+\begin{lstlisting}
 // "These works to find a componente fuertemente conexa that it's in directed graph"
 struct SCC{
 	int N = 0, id;
@@ -128,13 +164,16 @@ struct SCC{
 		return components; // SCC in reverse topological order
 	}
 };
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
+\vspace{0.6cm}
 \section*{Number Theorry}
 \addcontentsline{toc}{section}{Number Theorry}
+\vspace{0.3cm}
 \subsection*{3.1 Number Theory}
 \addcontentsline{toc}{subsection}{3.1 Number Theory}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 class EulerTotiente {
   public:
   //* metodo en O(sqrt(n))
@@ -236,11 +275,12 @@ int gcd(int a, int b) {
 int lcm(int a, int b) {
   return (a * b) / gcd(a, b);
 }
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
 \subsection*{3.2 Phi Euler}
 \addcontentsline{toc}{subsection}{3.2 Phi Euler}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 //* Phi Euler
 //* Phi(n) = contar la cantidad de numero coprimos entre 1 a n
 int phi(int n) {
@@ -273,11 +313,12 @@ void phi_1_to_n(int n) {
         }
     }
 }
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
 \subsection*{3.3 Potenciación Binaria}
 \addcontentsline{toc}{subsection}{3.3 Potenciación Binaria}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 //* Binpow
 long long binpow(long long a, long long b, long long m) {
     a %= m;
@@ -290,11 +331,12 @@ long long binpow(long long a, long long b, long long m) {
     }
     return res;
 }
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
 \subsection*{3.4 Sum Of Divisors}
 \addcontentsline{toc}{subsection}{3.4 Sum Of Divisors}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 //* Sum of divs
 long long SumOfDivisors(long long num) {
     long long total = 1;
@@ -320,13 +362,16 @@ long long SumOfDivisors(long long num) {
     }
     return total;
 }
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
+\vspace{0.6cm}
 \section*{Segment Tree}
 \addcontentsline{toc}{section}{Segment Tree}
+\vspace{0.3cm}
 \subsection*{4.1 Find Two Numbers}
 \addcontentsline{toc}{subsection}{4.1 Find Two Numbers}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 // "find two number where the sum is x, and gcd(a, b) > 1" b
 auto find = [&](ll x){
   for(int d = 2; d <= x / 2; d++){
@@ -341,11 +386,12 @@ auto find = [&](ll x){
     }
   }
 };
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
 \subsection*{4.2 Segment Tree Recursivo}
 \addcontentsline{toc}{subsection}{4.2 Segment Tree Recursivo}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 template<typename T>
 struct segment_tree{
 	int N;
@@ -440,11 +486,12 @@ public:
 
 	T query(int ql, int qr){ return query(ql, qr, 1, 0, N - 1); }
 };
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
 \subsection*{4.3 Segment Tree V2}
 \addcontentsline{toc}{subsection}{4.3 Segment Tree V2}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 // "This segment_tree I understand better how it works"
 template<typename T>
 struct seg_tree {
@@ -505,11 +552,12 @@ public:
     void modify(int pos, T value) { modify(pos, value, 1, 0, N-1); }
     T query(int l, int r) { return query(l, r, 1, 0, N-1); }
 };
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
 \subsection*{4.4 Segment Tree V3}
 \addcontentsline{toc}{subsection}{4.4 Segment Tree V3}
-\begin{minted}[fontsize=\footnotesize,breaklines,tabsize=2,style=monokai]{cpp}
+\vspace{0.1cm}
+\begin{lstlisting}
 // snippet seg_tree_2 "Description" b
 template<class T>
 struct segment_tree{
@@ -556,6 +604,8 @@ struct segment_tree{
         return ans;
 	}
 };
-\end{minted}
-
+\end{lstlisting}
+\vspace{0.4cm}
+\vspace{0.6cm}
+\end{multicols}
 \end{document}

@@ -1,0 +1,23 @@
+# PDF Snippet Generator for Competitive Programming
+# Python dependencies
+
+# Core dependencies (included in Python standard library)
+# - pathlib (Python 3.4+)
+# - typing (Python 3.5+)
+# - dataclasses (Python 3.7+)
+# - enum (Python 3.4+)
+# - logging (Python 3.0+)
+# - subprocess (Python 3.0+)
+# - datetime (Python 3.0+)
+# - os (Python 3.0+)
+# - sys (Python 3.0+)
+# - shutil (Python 3.0+)
+
+# No external dependencies required!
+# This project uses only Python standard library modules.
+
+# Optional: For development and testing
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+# mypy>=0.800

@@ -1,2 +1,49 @@
+# .snipignore - Archivos y patrones a excluir de la generación del PDF
+# =================================================================
+
+# Archivos temporales
+*.tmp
+*.temp
 *.bak
-Ejemplo_archivo.cpp
+*.swp
+*~
+
+# Archivos de prueba
+test_*.cpp
+*_test.cpp
+*_tests.cpp
+test.cpp
+
+# Archivos antiguos o deprecados
+old_*.cpp
+deprecated_*.cpp
+*_old.cpp
+*_deprecated.cpp
+
+# Archivos de ejemplo o demo
+example_*.cpp
+demo_*.cpp
+sample_*.cpp
+*_example.cpp
+*_demo.cpp
+*_sample.cpp
+
+# Archivos de configuración
+config_*.cpp
+settings_*.cpp
+*_config.cpp
+*_settings.cpp
+
+# Archivos de utilidad
+util_*.cpp
+helper_*.cpp
+*_util.cpp
+*_helper.cpp
+
+# Archivos específicos (descomenta y modifica según necesites)
+# main.cpp
+# debug.cpp
+# TODO.cpp
+
+# Comentarios (líneas que empiezan con #)
+# Los comentarios como este se ignoran automáticamente

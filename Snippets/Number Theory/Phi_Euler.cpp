@@ -1,5 +1,3 @@
-//* Phi Euler
-//* Phi(n) = contar la cantidad de numero coprimos entre 1 a n
 int phi(int n) {
     int ans = n;
     for(int i = 2; i * i <= n; i++) {
@@ -15,7 +13,6 @@ int phi(int n) {
     }
     return ans;
 }
-
 
 //* phi(n) -> complex: O(log(log(n)))
 void phi_1_to_n(int n) {

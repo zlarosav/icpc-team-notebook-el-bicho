@@ -1,5 +1,4 @@
 // Criba de Eratostenes: Hasta N = 10^6
-// Con bitset<N> Hasta N = 10^8 en 1s
 void sieve(vector<bool>& is_prime) {
   int N = (int) is_prime.size();
   if (!is_prime[0]) is_prime.assign(N+1, true);

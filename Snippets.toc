@@ -1,29 +1,32 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {section}{Algos}{3}{Doc-Start}%
-\contentsline {subsection}{1.1 Fast Io}{3}{section*.1}%
-\contentsline {section}{Bit Manipulation}{3}{lstnumber.-1.58}%
-\contentsline {subsection}{2.1 Bits}{3}{section*.2}%
-\contentsline {section}{Combinatory}{4}{lstnumber.-2.37}%
-\contentsline {subsection}{3.1 Combinatory}{4}{section*.3}%
-\contentsline {section}{Graph}{4}{lstnumber.-3.23}%
-\contentsline {subsection}{4.1 Bfs}{4}{section*.4}%
-\contentsline {subsection}{4.2 Bipartite}{5}{lstnumber.-4.23}%
-\contentsline {subsection}{4.3 Dfs}{5}{lstnumber.-5.31}%
-\contentsline {subsection}{4.4 Dfs 2D}{5}{lstnumber.-6.13}%
-\contentsline {subsection}{4.5 Disjoint Set Union Dsu}{6}{lstnumber.-7.29}%
-\contentsline {subsection}{4.6 Djisktra}{6}{lstnumber.-8.20}%
-\contentsline {subsection}{4.7 Lowest Common Ancestor Lca}{6}{lstnumber.-9.31}%
-\contentsline {subsection}{4.8 Scc}{7}{lstnumber.-10.61}%
-\contentsline {subsection}{4.9 Topological Sort}{8}{lstnumber.-11.57}%
-\contentsline {section}{Number Theorry}{8}{lstnumber.-12.20}%
-\contentsline {subsection}{5.1 Euler Toliente}{8}{section*.5}%
-\contentsline {subsection}{5.2 Number Theory}{8}{lstnumber.-13.36}%
-\contentsline {subsection}{5.3 Phi Euler}{9}{lstnumber.-14.49}%
-\contentsline {subsection}{5.4 Potenciación Binaria}{9}{lstnumber.-15.32}%
-\contentsline {subsection}{5.5 Sieve}{10}{lstnumber.-16.12}%
-\contentsline {subsection}{5.6 Sum Of Divisors}{10}{lstnumber.-17.14}%
-\contentsline {section}{Segment Tree}{10}{lstnumber.-18.25}%
-\contentsline {subsection}{6.1 Find Two Numbers}{10}{section*.6}%
-\contentsline {subsection}{6.2 Segment Tree Recursivo}{10}{lstnumber.-19.14}%
-\contentsline {subsection}{6.3 Segment Tree V2}{11}{lstnumber.-20.94}%
-\contentsline {subsection}{6.4 Segment Tree V3}{12}{lstnumber.-21.60}%
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Algos}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Fast Io}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Bit Manipulation}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Bits}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Combinatory}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Combi Brute Sin Mod}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Combinatory}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Graph}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Bfs}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Bipartite}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Dfs}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Dfs 2D}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Disjoint Set Union Dsu}{5}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Djisktra}{5}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Lowest Common Ancestor Lca}{6}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Scc}{7}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Topological Sort}{7}{subsection.4.9}%
+\contentsline {section}{\numberline {5}Number Theory}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Euler Toliente}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Gcd Lcm}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Number Theory}{8}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Phi Euler}{9}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Potenciacion Binaria}{9}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Sieve}{9}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Sieve Bitset}{10}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Sum Of Divisors}{10}{subsection.5.8}%
+\contentsline {section}{\numberline {6}Segment Tree}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Find Two Numbers}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Segment Tree Recursivo}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Segment Tree V2}{12}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Segment Tree V3}{12}{subsection.6.4}%

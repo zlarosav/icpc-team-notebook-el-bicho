@@ -169,7 +169,7 @@ class Generator:
         self.compiler = PDFCompiler()
 
     def ensure_preamble(self):
-        content = r"""\documentclass[10pt,landscape,twocolumn,a4paper,notitlepage]{article}
+        content = r"""\documentclass[10pt,a4paper,notitlepage]{article}
 \usepackage{hyperref}
 \usepackage[english, activeacute]{babel}
 \usepackage[utf8]{inputenc}
@@ -188,14 +188,11 @@ class Generator:
 \usepackage{makeidx}
 
 %%% Margenes
-\setlength{\columnsep}{0.25in}
-\setlength{\columnseprule}{0.5pt}
+\addtolength{\textheight}{1.5in}
+\addtolength{\topmargin}{-0.75in}
 
-\addtolength{\textheight}{2.35in}
-\addtolength{\topmargin}{-0.9in}
-
-\addtolength{\textwidth}{1.1in}
-\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\textwidth}{1.8in}
+\addtolength{\oddsidemargin}{-0.9in}
 
 \setlength{\headsep}{0.08in}
 \setlength{\parskip}{0in}
@@ -228,8 +225,8 @@ class Generator:
     basicstyle=\ttfamily,
     keywordstyle=\color{darkblue}\ttfamily,
     stringstyle=\color{magenta}\ttfamily,
-    commentstyle=\color{RedOrange}\ttfamily,
-    morecomment=[l][\color{OliveGreen}]{\#},
+    commentstyle=\color{OliveGreen}\ttfamily,
+    morecomment=[l][\color{Purple}]{\#},
     literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'\i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
              {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
              {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {ü}{{\"u}}1 {Ü}{{\"U}}1
@@ -247,8 +244,8 @@ class Generator:
     basicstyle=\ttfamily,
     keywordstyle=\color{darkblue}\ttfamily,
     stringstyle=\color{magenta}\ttfamily,
-    commentstyle=\color{RedOrange}\ttfamily,
-    morecomment=[l][\color{OliveGreen}]{\#}
+    commentstyle=\color{OliveGreen}\ttfamily,
+    morecomment=[l][\color{Purple}]{\#}
 }
 
 %%% Macros

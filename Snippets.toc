@@ -1,33 +1,62 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Algos}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Fast Io}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Tablas Y Cotas}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Bit Manipulation}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Bits}{4}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Combinatory}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Combi Brute Sin Mod}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Combinatory}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Graph}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Bfs}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Bipartite}{6}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Dfs}{6}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Dfs 2D}{6}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Disjoint Set Union Dsu}{7}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Djisktra}{7}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Lowest Common Ancestor Lca}{8}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Scc}{8}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Topological Sort}{9}{subsection.4.9}%
-\contentsline {section}{\numberline {5}Number Theory}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Euler Toliente}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Gcd Lcm}{10}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Number Theory}{10}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Phi Euler}{10}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Potenciacion Binaria}{11}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Sieve}{11}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Sieve Bitset}{11}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Sum Of Divisors}{11}{subsection.5.8}%
-\contentsline {section}{\numberline {6}Segment Tree}{12}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Find Two Numbers}{12}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Segment Tree Recursivo}{12}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Segment Tree V2}{13}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Segment Tree V3}{14}{subsection.6.4}%
+\contentsline {section}{\numberline {1}Algos}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Binary Search}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Fast Io}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Sliding Window}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Tablas Y Cotas}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Two Pointers}{7}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Bit Manipulation}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Bits}{8}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Combinatory}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Combi Brute Sin Mod}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Combinatory}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Data Structures}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fenwick Tree}{10}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Dp}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Digit Dp Pattern}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Digit Dp}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Edit Distance}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Knapsack}{12}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Lcs}{13}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Geometry}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Convex Hull}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Point Operations}{14}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Graph}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Bellman Ford}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Bfs}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Bipartite}{16}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Dfs}{16}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Dfs 2D}{17}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Dijkstra}{17}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Disjoint Set Union Dsu}{18}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Floyd Warshall}{18}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Kruskal}{18}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Lowest Common Ancestor Lca}{19}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Prim}{20}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Scc}{21}{subsection.7.12}%
+\contentsline {subsection}{\numberline {7.13}Topological Sort}{22}{subsection.7.13}%
+\contentsline {section}{\numberline {8}Manhattan Distance}{22}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Farthest Pair Of Points}{22}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Nearest Neighbor In Each Octant}{22}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Number Theory}{23}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Euler Toliente}{23}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Gcd Lcm}{24}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Number Theory}{24}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Phi Euler}{25}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Potenciacion Binaria}{25}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Sieve}{25}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Sieve Bitset}{26}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Sum Of Divisors}{26}{subsection.9.8}%
+\contentsline {section}{\numberline {10}Numerical Methods}{27}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Calculating The Determinant Of A Matrix By Gauss}{27}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Gauss Method For Solving System Of Linear Equations}{27}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Gauss Solving Modular Slae}{28}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Integration By Simpson'S Formula}{28}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Segment Tree}{29}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Find Two Numbers}{29}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Segment Tree}{29}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Sparse Table}{30}{subsection.11.3}%
+\contentsline {section}{\numberline {12}String}{30}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Kmp}{30}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Trie}{31}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Z Algorithm}{32}{subsection.12.3}%

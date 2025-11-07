@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.18)  20 AUG 2025 02:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.18)  7 NOV 2025 17:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -510,7 +510,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<img/cr7.jpg, id=131, 338.76563pt x 365.11406pt>
+<img/cr7.jpg, id=247, 338.76563pt x 365.11406pt>
 File: img/cr7.jpg Graphic file (type jpg)
 <use img/cr7.jpg>
 Package pdftex.def Info: img/cr7.jpg  used on input line 8.
@@ -557,16 +557,16 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-)
+[1{C:/Users/zlaro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/zl
+aro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
+
+ <./img/cr7.jpg>])
 \tf@toc=\write4
 \openout4 = `Snippets.toc'.
 
 
 
-[1{C:/Users/zlaro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/zl
-aro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
-
- <./img/cr7.jpg>]
+[2]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 15.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
@@ -574,82 +574,90 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
  (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+(build/sanitized_include/Binary Search.cpp)
 (build/sanitized_include/Fast IO.cpp
 
-) (build/sanitized_include/Tablas_y_Cotas.cpp
+[3]) (build/sanitized_include/Sliding Window.cpp
 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[4]) (build/sanitized_include/Tablas_y_Cotas.cpp
 
+[5]
 
+[6]) (build/sanitized_include/Two Pointers.cpp
 
+[7]) (build/sanitized_include/Bits.cpp
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[8]) (build/sanitized_include/Combi_brute_sin_MOD.cpp)
+(build/sanitized_include/Combinatory.cpp
 
+[9]) (build/sanitized_include/Fenwick Tree.cpp
 
+[10]) (build/sanitized_include/Digit DP Pattern.cpp)
 
-[3])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[11] (build/sanitized_include/Digit DP.cpp)
+(build/sanitized_include/Edit Distance.cpp)
+(build/sanitized_include/Knapsack.cpp
 
+[12]) (build/sanitized_include/LCS.cpp)
+(build/sanitized_include/Convex Hull.cpp
 
+[13]) (build/sanitized_include/Point Operations.cpp
 
-(build/sanitized_include/Bits.cpp
+[14]) (build/sanitized_include/Bellman Ford.cpp)
+(build/sanitized_include/BFS.cpp
 
-[4]) (build/sanitized_include/Combi_brute_sin_MOD.cpp
+[15]) (build/sanitized_include/Bipartite.cpp) (build/sanitized_include/DFS.cpp
 
-) (build/sanitized_include/Combinatory.cpp
+[16]) (build/sanitized_include/DFS_2D.cpp)
+(build/sanitized_include/Dijkstra.cpp
 
-[5]) (build/sanitized_include/BFS.cpp) (build/sanitized_include/Bipartite.cpp
+[17]) (build/sanitized_include/Disjoint Set Union DSU.cpp)
+(build/sanitized_include/Floyd Warshall.cpp)
+(build/sanitized_include/Kruskal.cpp
 
-) (build/sanitized_include/DFS.cpp) (build/sanitized_include/DFS_2D.cpp
+[18]) (build/sanitized_include/Lowest Common Ancestor LCA.cpp
 
-[6]) (build/sanitized_include/Disjoint Set Union DSU.cpp
+[19]) (build/sanitized_include/Prim.cpp
 
-) (build/sanitized_include/Djisktra.cpp)
+[20]) (build/sanitized_include/SCC.cpp
 
-[7] (build/sanitized_include/Lowest Common Ancestor LCA.cpp
+[21]) (build/sanitized_include/Topological Sort.cpp)
+(build/sanitized_include/Farthest_pair_of_points.cpp)
+(build/sanitized_include/Nearest_Neighbor_in_each_Octant.cpp
 
-) (build/sanitized_include/SCC.cpp
+[22]) (build/sanitized_include/Euler_Toliente.cpp
 
-[8])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[23]) (build/sanitized_include/GCD_LCM.cpp)
+(build/sanitized_include/Number_Theory.cpp)
 
-
-
-(build/sanitized_include/Topological Sort.cpp)
-(build/sanitized_include/Euler_Toliente.cpp
-
-[9]) (build/sanitized_include/GCD_LCM.cpp)
-(build/sanitized_include/Number_Theory.cpp
-
-) (build/sanitized_include/Phi_Euler.cpp
-
-[10]) (build/sanitized_include/Potenciacion_Binaria.cpp)
+[24] (build/sanitized_include/Phi_Euler.cpp)
+(build/sanitized_include/Potenciacion_Binaria.cpp)
 (build/sanitized_include/Sieve.cpp
 
-) (build/sanitized_include/Sieve_bitset.cpp)
-(build/sanitized_include/Sum_of_Divisors.cpp
+[25]) (build/sanitized_include/Sieve_bitset.cpp)
+(build/sanitized_include/Sum_of_Divisors.cpp)
 
-[11]) (build/sanitized_include/Find_two_Numbers.cpp)
-(build/sanitized_include/Segment_Tree_Recursivo.cpp
+[26]
+(build/sanitized_include/Calculating the determinant of a matrix by Gauss.cpp)
+(build/sanitized_include/Gauss method for solving system of linear equations.cp
+p
 
+[27]) (build/sanitized_include/Gauss Solving modular SLAE.cpp)
+(build/sanitized_include/Integration by Simpson's formula.cpp)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[28] (build/sanitized_include/Find_two_Numbers.cpp)
+(build/sanitized_include/Segment_Tree.cpp
 
+[29]) (build/sanitized_include/Sparse Table.cpp)
+(build/sanitized_include/KMP.cpp
 
+[30]) (build/sanitized_include/Trie.cpp
 
-[12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[31]) (build/sanitized_include/Z Algorithm.cpp
 
+[32])
 
-
-) (build/sanitized_include/Segment_Tree_v2.cpp
-
-[13]) (build/sanitized_include/Segment_Tree_v3.cpp
-
-)
-
-[14] 
+[33] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (Snippets.aux)
  ***********
@@ -657,25 +665,25 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `Snippets.out' has not changed.
-(rerunfilecheck)             Checksum: 7910604DFAF05A9FA799ED0543417F5C;3742.
+(rerunfilecheck)             Checksum: BC42CEB5CFA28DC9555DA69759EFF1A7;7634.
  ) 
 Here is how much of TeX's memory you used:
- 15611 strings out of 468133
- 242946 string characters out of 5430719
- 1572537 words of memory out of 5000000
- 42871 multiletter control sequences out of 15000+600000
+ 16720 strings out of 468133
+ 263436 string characters out of 5430719
+ 1371446 words of memory out of 5000000
+ 43235 multiletter control sequences out of 15000+600000
  671398 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,12n,84p,332b,2176s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,84p,422b,2176s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 ><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><
 C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><
 C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Snippets.pdf (14 pages, 501585 bytes).
+Output written on Snippets.pdf (33 pages, 659687 bytes).
 PDF statistics:
- 1500 PDF objects out of 1728 (max. 8388607)
- 1062 named destinations out of 1200 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2509 PDF objects out of 2984 (max. 8388607)
+ 1738 named destinations out of 2073 (max. 500000)
+ 494 words of extra memory for PDF output out of 10000 (max. 10000000)
 

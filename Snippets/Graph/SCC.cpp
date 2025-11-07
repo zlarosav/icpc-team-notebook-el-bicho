@@ -1,5 +1,5 @@
 // "These works to find a componente fuertemente conexa that it's in directed graph"
-struct SCC{
+struct SCC {
 	int N = 0, id;
 	vector<vector<int>> adj;
 	vector<int> ind, low;

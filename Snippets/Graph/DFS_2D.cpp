@@ -7,13 +7,15 @@ for (int i = 0; i < N; i++) {
 }
 
 vector<vector<bool>> vis(N, vector<bool>(M));
-vector<int> dx = {-1, 1, 0, 0}, dy = {0, 0, -1, 1};
+int dx[4] = {-1, 1, 0, 0}, dy[4] = {0, 0, -1, 1};
 function<void(int, int)> dfs = [&](int x, int y) {
   vis[x][y] = 1;
 
   for (int d = 0; d < 4; d++) {
     int nx = x + dx[d], ny = y + dy[d];
-    if (0 <= nx && nx < N && 0 <= ny && ny < M && grid[nx][ny] == '.' && !vis[nx][ny]) dfs(nx, ny);
+    if (0 <= nx && 0 <= ny && nx < N && ny < M && grid[nx][ny] == '.' && !vis[nx][ny]) {
+      dfs(nx, ny);
+    }
   }
 };
 

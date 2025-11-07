@@ -1,4 +1,4 @@
-struct DSU{
+struct DSU {
 	vector<int> p, size;
 	DSU(int n){
 		p.resize(n + 1), size.resize(n + 1,1);

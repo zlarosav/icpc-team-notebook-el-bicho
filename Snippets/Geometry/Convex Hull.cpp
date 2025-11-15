@@ -5,6 +5,7 @@ struct Point {
   long long cross(const Point& p) const { return x * p.y - y * p.x; }
   long long cross(const Point& a, const Point& b) const { return (a - *this).cross(b - *this); }
   bool operator<(const Point& p) const { return x < p.x || (x == p.x && y < p.y); }
+  bool operator==(const Point& p) const { return x == p.x && y == p.y; }
 };
 
 vector<Point> convex_hull(vector<Point>& points) {
@@ -13,6 +14,7 @@ vector<Point> convex_hull(vector<Point>& points) {
   sort(points.begin(), points.end());
   vector<Point> hull;
   for (int i = 0; i < n; i++) {
+    // Si quiero incluir coords colineales ( < 0), si no lo quiero ( <= 0)
     while (hull.size() >= 2 && hull[hull.size() - 2].cross(hull.back(), points[i]) <= 0) {
       hull.pop_back();
     }
@@ -20,6 +22,7 @@ vector<Point> convex_hull(vector<Point>& points) {
   }
   int lower = hull.size();
   for (int i = n - 2; i >= 0; i--) {
+    // Si quiero incluir coords colineales ( < 0), si no lo quiero ( <= 0)
     while (hull.size() > lower && hull[hull.size() - 2].cross(hull.back(), points[i]) <= 0) {
       hull.pop_back();
     }
@@ -36,5 +39,5 @@ vector<Point> convex_hull(vector<Point>& points) {
 //   cin >> points[i].x >> points[i].y;
 // }
 // vector<Point> hull = convex_hull(points);
-// hull contiene los puntos del convex hull en orden counter-clockwise
-
+// hull contiene los puntos del convex hull en orden counter-clockwise (CCW / Antihorario)
+// reverse(hull) para obtenerlo en orden CW / horario

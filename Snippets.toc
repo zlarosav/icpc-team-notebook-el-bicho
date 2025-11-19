@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Algos}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Binary Search}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Fast Io}{3}{subsection.1.2}%
@@ -24,38 +24,38 @@
 \contentsline {section}{\numberline {6}Geometry}{15}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Convex Hull}{15}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Point Operations}{16}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Graph}{17}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Bellman Ford}{17}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Bfs}{17}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Bipartite}{18}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Dfs}{18}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Dfs 2D}{18}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Dijkstra}{19}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Disjoint Set Union Dsu}{19}{subsection.7.7}%
-\contentsline {subsection}{\numberline {7.8}Floyd Warshall}{20}{subsection.7.8}%
-\contentsline {subsection}{\numberline {7.9}Kruskal}{20}{subsection.7.9}%
-\contentsline {subsection}{\numberline {7.10}Lowest Common Ancestor Lca}{21}{subsection.7.10}%
-\contentsline {subsection}{\numberline {7.11}Prim}{22}{subsection.7.11}%
-\contentsline {subsection}{\numberline {7.12}Scc}{22}{subsection.7.12}%
-\contentsline {subsection}{\numberline {7.13}Topological Sort}{23}{subsection.7.13}%
-\contentsline {section}{\numberline {8}Manhattan Distance}{24}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Farthest Pair Of Points}{24}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Nearest Neighbor In Each Octant}{24}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Number Theory}{25}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Euler Toliente}{25}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Gcd Lcm}{25}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Number Theory}{26}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Phi Euler}{26}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Potenciacion Binaria}{27}{subsection.9.5}%
-\contentsline {subsection}{\numberline {9.6}Sieve}{27}{subsection.9.6}%
-\contentsline {subsection}{\numberline {9.7}Sieve Bitset}{27}{subsection.9.7}%
-\contentsline {subsection}{\numberline {9.8}Sum Of Divisors}{28}{subsection.9.8}%
-\contentsline {section}{\numberline {10}Numerical Methods}{28}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Calculating The Determinant Of A Matrix By Gauss}{28}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Gauss Method For Solving System Of Linear Equations}{29}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Gauss Solving Modular Slae}{30}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Integration By Simpson'S Formula}{30}{subsection.10.4}%
-\contentsline {section}{\numberline {11}String}{30}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Kmp}{30}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Trie}{31}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Z Algorithm}{32}{subsection.11.3}%
+\contentsline {section}{\numberline {7}Graph}{23}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Bellman Ford}{23}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Bfs}{23}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Bipartite}{24}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Dfs}{24}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Dfs 2D}{24}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Dijkstra}{25}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Disjoint Set Union Dsu}{25}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Floyd Warshall}{26}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Kruskal}{26}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Lowest Common Ancestor Lca}{27}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Prim}{28}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Scc}{28}{subsection.7.12}%
+\contentsline {subsection}{\numberline {7.13}Topological Sort}{29}{subsection.7.13}%
+\contentsline {section}{\numberline {8}Manhattan Distance}{30}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Farthest Pair Of Points}{30}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Nearest Neighbor In Each Octant}{30}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Number Theory}{31}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Euler Toliente}{31}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Gcd Lcm}{31}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Number Theory}{32}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Phi Euler}{32}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Potenciacion Binaria}{33}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Sieve}{33}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Sieve Bitset}{34}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Sum Of Divisors}{34}{subsection.9.8}%
+\contentsline {section}{\numberline {10}Numerical Methods}{34}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Calculating The Determinant Of A Matrix By Gauss}{34}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Gauss Method For Solving System Of Linear Equations}{35}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Gauss Solving Modular Slae}{36}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Integration By Simpson'S Formula}{36}{subsection.10.4}%
+\contentsline {section}{\numberline {11}String}{36}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Kmp}{36}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Trie}{37}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Z Algorithm}{38}{subsection.11.3}%

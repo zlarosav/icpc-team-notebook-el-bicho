@@ -1,0 +1,93 @@
+\textbf{Cookbook Geometría 2D} - Operaciones con Puntos, Vectores, Líneas y Polígonos
+
+\vspace{0.3cm}
+\textbf{PROBLEMAS TÍPICOS Y SUS SOLUCIONES}
+
+\begin{itemize}
+    \item \textbf{¿Un segmento toca un rectángulo?}
+    
+    Construir 4 lados del rectángulo como \texttt{Line}, usar \texttt{segIntersect(seg, lado\_i)} para $i = 1..4$, y verificar con \texttt{between}/extremos dentro para cubrir el caso ``segmento completamente dentro''.
+    
+    \textit{Funciones clave:} \texttt{segIntersect}, \texttt{between}, \texttt{Point/Line}.
+    
+    \item \textbf{¿Dos segmentos se cruzan?}
+    
+    Usar \texttt{segIntersect(l1, l2)} si contar colineales y tocar endpoints, o \texttt{segStrictlyIntersect(l1, l2)} si solo quieres cruce estricto.
+    
+    \item \textbf{Distancia mínima entre dos segmentos}
+    
+    \texttt{Real d = segDist(l1, l2);} Si $d = 0$ entonces se tocan o cruzan.
+    
+    \item \textbf{Distancia mínima de un punto a un segmento}
+    
+    \texttt{Real d = pointToSegDist(p, seg);}
+    
+    \item \textbf{Distancia mínima de un punto a una recta infinita}
+    
+    \texttt{Real d = pointToLineDist(p, line);}
+    
+    \item \textbf{¿Punto dentro de un polígono cualquiera?}
+    
+    \texttt{bool inside = pointInPoly(p, poly);}
+    
+    \item \textbf{Área de un polígono (ordenado CCW o CW)}
+    
+    \texttt{T twice = area(poly); Real A = fabsl((Real)twice) / 2.0;}
+    
+    \item \textbf{¿Punto sobre el borde de un polígono?}
+    
+    Recorrer lados $[i, i+1]$, verificar si \texttt{pointOnSeg(p, Line(ai, aj))}.
+    
+    \item \textbf{¿Dos rectas infinitas se cruzan? Dame el punto}
+    
+    Primero verificar que no sean paralelas: \texttt{sign(cross(direction(l1), direction(l2))) != 0}, luego \texttt{P<Real> inter = lineIntersection(l1, l2);}
+    
+    \item \textbf{Ordenar vectores/puntos por ángulo alrededor del origen}
+    
+    \texttt{sort(v.begin(), v.end(), polar<i64>);} o usar lambda con \texttt{up()} y \texttt{cross()}.
+    
+    \item \textbf{Vector normal a un segmento}
+    
+    \texttt{P<T> d = direction(seg); P<T> n = rotate90(d);} (normal 90° CCW) o \texttt{P<Real> nu = normal(d);} (normal unitaria).
+    
+    \item \textbf{Detectar si un punto está a la izquierda/derecha de un borde}
+    
+    \texttt{int s = side(p, a, b);} donde $s > 0$ izquierda (CCW), $s < 0$ derecha (CW), $s = 0$ colineal.
+    
+    \item \textbf{Clasificar orientación de un polígono}
+    
+    \texttt{T twice = area(poly);} Si \texttt{twice > 0} es CCW, si \texttt{twice < 0} es CW.
+    
+    \item \textbf{Reflexión de un punto respecto a una recta}
+    
+    \texttt{P<Real> pr = reflection(p, line);}
+    
+    \item \textbf{Proyección de un punto sobre una recta}
+    
+    \texttt{P<Real> proj = projection(p, line);}
+    
+    \item \textbf{Intersección de rayo con segmento}
+    
+    \texttt{rayIntersect(rayo1, rayo2)} si ambos modelados como \texttt{Line} con origen en \texttt{l.l[0]} y dirección \texttt{l.l[1]-l.l[0]}. Para rayo vs segmento, combinar con \texttt{segIntersect} o rediseñar con \texttt{side()} y \texttt{dot()}.
+    
+    \item \textbf{Rotar un punto/vector alrededor del origen}
+    
+    \texttt{P<Real> rotado = rotate(p, angulo\_en\_radianes);} Para 90° CCW rápido: \texttt{rotate90(p);}
+    
+    \item \textbf{Calcular ángulo de un vector respecto al eje X}
+    
+    \texttt{Real ang = angle(p);} devuelve \texttt{atan2(p.y, p.x)} en radianes.
+\end{itemize}
+
+\vspace{0.3cm}
+\textbf{TIPS IMPORTANTES}
+\begin{itemize}
+    \item Usa \texttt{Point = P<i64>} para coords enteras, evita overflow en \texttt{cross/dot}
+    \item Usa \texttt{P<Real>} (long double) para resultados con decimales (distancias, intersecciones)
+    \item \texttt{EPS = 1e-9} para comparaciones de flotantes
+    \item \texttt{sign()} y \texttt{cmp()} manejan tolerancia automáticamente
+    \item Para convex hull y polígonos, mantén puntos en sentido CCW
+    \item Verifica casos especiales: colineales, segmentos degenerados (mismo punto)
+    \item Al leer entrada: \texttt{Point p; cin >\hspace{0pt}> p;} (operador sobrecargado)
+\end{itemize}
+

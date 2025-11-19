@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.18)  15 NOV 2025 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.18)  18 NOV 2025 23:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -194,26 +194,31 @@ on input line 2078.
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
 df
-Language: english 2017/06/06 v3.3r English support from the babel system
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 
-(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 12.
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 12.
 )
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
+\es@quottoks=\toks18
+\es@quotdepth=\count297
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
 ))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
+on input line 4.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
+ on input line 4.
+
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 )
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
@@ -270,7 +275,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip63
 \f@nch@widthC=\skip64
 \f@nch@widthR=\skip65
-\@temptokenb=\toks20
+\@temptokenb=\toks21
 )
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2025/06/06 v2.1g lastpage: 2.09 or 2e? (HMM)
@@ -282,21 +287,21 @@ MM)
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern
 .sty
 Package: lastpagemodern 2025-06-06 v2.1g Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count297
+\c@lastpagecount=\count298
 ) 
 ))
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count298
+\lst@mode=\count299
 \lst@gtempboxa=\box53
-\lst@token=\toks21
-\lst@length=\count299
+\lst@token=\toks22
+\lst@length=\count300
 \lst@currlwidth=\dimen154
-\lst@column=\count300
-\lst@pos=\count301
+\lst@column=\count301
+\lst@pos=\count302
 \lst@lostspace=\dimen155
 \lst@width=\dimen156
-\lst@newlines=\count302
-\lst@lineno=\count303
+\lst@newlines=\count303
+\lst@lineno=\count304
 \lst@maxwidth=\dimen157
 
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -304,8 +309,8 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count304
-\lst@skipnumbers=\count305
+\c@lstnumber=\count305
+\lst@skipnumbers=\count306
 \lst@framebox=\box54
 )
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -322,7 +327,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks22
+\@emptytoks=\toks23
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -362,9 +367,9 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen160
 \WF@size=\dimen161
-\c@WF@wrappedlines=\count306
+\c@WF@wrappedlines=\count307
 \WF@box=\box55
-\WF@everypar=\toks23
+\WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
@@ -377,7 +382,7 @@ Package: amstext 2024/11/17 v2.01 AMS text
 
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
+\@emptytoks=\toks25
 \ex@=\dimen162
 ))
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
@@ -387,14 +392,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count307
+\inf@bad=\count308
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count308
-\leftroot@=\count309
+\uproot@=\count309
+\leftroot@=\count310
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count310
-\DOTSCASE@=\count311
+\classnum@=\count311
+\DOTSCASE@=\count312
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -407,31 +412,31 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen164
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count312
+\macc@depth=\count313
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count313
+\c@MaxMatrixCols=\count314
 \dotsspace@=\muskip18
-\c@parentequation=\count314
-\dspbrk@lvl=\count315
-\tag@help=\toks25
-\row@=\count316
-\column@=\count317
-\maxfields@=\count318
-\andhelp@=\toks26
+\c@parentequation=\count315
+\dspbrk@lvl=\count316
+\tag@help=\toks26
+\row@=\count317
+\column@=\count318
+\maxfields@=\count319
+\andhelp@=\toks27
 \eqnshift@=\dimen165
 \alignsep@=\dimen166
 \tagshift@=\dimen167
 \tagwidth@=\dimen168
 \totwidth@=\dimen169
 \lineht@=\dimen170
-\@envbody=\toks27
+\@envbody=\toks28
 \multlinegap=\skip67
 \multlinetaggap=\skip68
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
@@ -456,8 +461,13 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
-) (Snippets.aux)
+\l__color_backend_stack_int=\count320
+) (Snippets.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 11.
+)
 \openout1 = `Snippets.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -483,22 +493,24 @@ Package hyperref Info: Link coloring OFF on input line 3.
 \@outlinefile=\write3
 \openout3 = `Snippets.out'.
 
-\c@lstlisting=\count320
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+\c@lstlisting=\count321
 
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
+\scratchcounter=\count322
 \scratchdimen=\dimen171
 \scratchbox=\box58
-\nofMPsegments=\count322
-\nofMParguments=\count323
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count324
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count325
 \MPscratchDim=\dimen172
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks31
 )
 (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -516,6 +528,8 @@ File: img/cr7.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/cr7.jpg  used on input line 8.
 (pdftex.def)             Requested size: 156.49014pt x 168.6676pt.
  (Snippets.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 .
 
@@ -557,6 +571,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 32.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
 [1{C:/Users/zlaro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/zl
 aro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
@@ -566,6 +586,10 @@ aro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 
 
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 [2]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 15.
@@ -574,89 +598,1146 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
  (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(build/sanitized_include/Binary Search.cpp)
-(build/sanitized_include/Fast IO.cpp
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-iso-8859
+-1.def
+File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
+) (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[3]) (build/sanitized_include/Sliding Window.cpp
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+[3] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[4]) (build/sanitized_include/Tablas_y_Cotas.cpp
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+[4] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
 [5]
 
-[6]) (build/sanitized_include/Two Pointers.cpp
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+[6] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[7]) (build/sanitized_include/Bits.cpp
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+[7] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[8]) (build/sanitized_include/Combi_brute_sin_MOD.cpp)
-(build/sanitized_include/Combinatory.cpp
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+[8] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[9]) (build/sanitized_include/Fenwick Tree.cpp
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+[9] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[10]) (build/sanitized_include/Find_two_Numbers.cpp)
-(build/sanitized_include/Segment_Tree.cpp
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+[10] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[11]) (build/sanitized_include/Sparse Table.cpp)
-(build/sanitized_include/Digit DP Pattern.cpp
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+[11] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[12]) (build/sanitized_include/Digit DP.cpp
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+[12] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[13]) (build/sanitized_include/Edit Distance.cpp)
-(build/sanitized_include/Knapsack.cpp) (build/sanitized_include/LCS.cpp
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+[13] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[14]) (build/sanitized_include/Convex Hull.cpp
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+[14] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[15]) (build/sanitized_include/Point Operations.cpp)
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+[15]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+17.
+ (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
-[16] (build/sanitized_include/Bellman Ford.cpp)
-(build/sanitized_include/BFS.cpp)
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+[16{C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.e
+nc}{C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{
+C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (35.86217pt too wide) in paragraph at lines 137--138
+[]\T1/lmtt/m/n/10 rayIntersect(rayo1, rayo2) \T1/lmr/m/n/10 si am-bos mo-de-la-
+dos co-mo \T1/lmtt/m/n/10 Line \T1/lmr/m/n/10 con ori-gen en \T1/lmtt/m/n/10 l.
+l[0] \T1/lmr/m/n/10 y di-rec-ción \T1/lmtt/m/n/10 l.l[1]-l.l[0]\T1/lmr/m/n/10 .
 
-[17] (build/sanitized_include/Bipartite.cpp) (build/sanitized_include/DFS.cpp)
-(build/sanitized_include/DFS_2D.cpp
+ []
 
-[18]) (build/sanitized_include/Dijkstra.cpp)
-(build/sanitized_include/Disjoint Set Union DSU.cpp
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[19]) (build/sanitized_include/Floyd Warshall.cpp)
-(build/sanitized_include/Kruskal.cpp
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+[17]
 
-[20]) (build/sanitized_include/Lowest Common Ancestor LCA.cpp
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+[18]
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+100.
+ (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
-[21]) (build/sanitized_include/Prim.cpp) (build/sanitized_include/SCC.cpp
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
+[19]
 
-[22]) (build/sanitized_include/Topological Sort.cpp
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+[20]
 
-[23]) (build/sanitized_include/Farthest_pair_of_points.cpp)
-(build/sanitized_include/Nearest_Neighbor_in_each_Octant.cpp
+LaTeX Info: Redefining \. on input line 260.
+LaTeX Info: Redefining \% on input line 260.
+LaTeX Info: Redefining \. on input line 260.
+LaTeX Info: Redefining \% on input line 260.
+[21]
 
-[24]) (build/sanitized_include/Euler_Toliente.cpp)
-(build/sanitized_include/GCD_LCM.cpp
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+[22] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[25]) (build/sanitized_include/Number_Theory.cpp)
-(build/sanitized_include/Phi_Euler.cpp
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+[23] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[26]) (build/sanitized_include/Potenciacion_Binaria.cpp)
-(build/sanitized_include/Sieve.cpp) (build/sanitized_include/Sieve_bitset.cpp
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+[24] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[27]) (build/sanitized_include/Sum_of_Divisors.cpp)
-(build/sanitized_include/Calculating the determinant of a matrix by Gauss.cpp
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+[25] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[28])
-(build/sanitized_include/Gauss method for solving system of linear equations.cp
-p
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+[26] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[29]) (build/sanitized_include/Gauss Solving modular SLAE.cpp)
-(build/sanitized_include/Integration by Simpson's formula.cpp)
-(build/sanitized_include/KMP.cpp
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+[27] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[30]) (build/sanitized_include/Trie.cpp
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+[28] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[31]) (build/sanitized_include/Z Algorithm.cpp
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+[29] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[32])
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+[30] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
 
-[33] 
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+[31] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+[32] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
+[33] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+[34] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+[35] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+[36] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+[37] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+[38]
+
+LaTeX Info: Redefining \. on input line 238.
+LaTeX Info: Redefining \% on input line 238.
+LaTeX Info: Redefining \. on input line 238.
+LaTeX Info: Redefining \% on input line 238.
+[39] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(Snippets.aux)
+(Snippets.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
@@ -665,22 +1746,23 @@ Package rerunfilecheck Info: File `Snippets.out' has not changed.
 (rerunfilecheck)             Checksum: 9B25D95D594163F7CF19032CE858B0CC;7520.
  ) 
 Here is how much of TeX's memory you used:
- 16722 strings out of 468133
- 263472 string characters out of 5430719
- 1371446 words of memory out of 5000000
- 43234 multiletter control sequences out of 15000+600000
- 671398 words of font info for 68 fonts, out of 8000000 for 9000
+ 17638 strings out of 468133
+ 278026 string characters out of 5430719
+ 1421828 words of memory out of 5000000
+ 43896 multiletter control sequences out of 15000+600000
+ 672068 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,12n,84p,422b,2176s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,90p,422b,2613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
+b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pf
 b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 ><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><
 C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><
 C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Snippets.pdf (33 pages, 659925 bytes).
+Output written on Snippets.pdf (39 pages, 735216 bytes).
 PDF statistics:
- 2509 PDF objects out of 2984 (max. 8388607)
- 1741 named destinations out of 2073 (max. 500000)
+ 2898 PDF objects out of 2984 (max. 8388607)
+ 2029 named destinations out of 2073 (max. 500000)
  486 words of extra memory for PDF output out of 10000 (max. 10000000)
 

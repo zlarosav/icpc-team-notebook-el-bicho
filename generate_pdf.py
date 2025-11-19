@@ -88,24 +88,11 @@ class TemplateManager:
         return info
 
 def sanitize_text(text: str) -> str:
-    replacements = {
-        "\ufeff": "",  # BOM
-        # common accents
-        "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u",
-        "ñ": "n", "ü": "u", "à": "a", "è": "e", "ì": "i",
-        "ò": "o", "ù": "u", "Á": "A", "É": "E", "Í": "I",
-        "Ó": "O", "Ú": "U", "Ñ": "N", "Ü": "U",
-        # quotes/dashes/ellipsis
-        "’": "'", "‘": "'", "“": '"', "”": '"',
-        "–": "-", "—": "-", "…": "...",
-    }
-    for s, r in replacements.items():
-        text = text.replace(s, r)
-    # strip control chars except \n, \t, \r
+    """Solo elimina BOM y caracteres de control, preserva acentos y UTF-8"""
+    # Eliminar BOM
+    text = text.replace("\ufeff", "")
+    # Solo eliminar caracteres de control excepto \n, \t, \r
     text = "".join(ch for ch in text if ch in "\n\t\r" or ord(ch) >= 32)
-    # remove any remaining diacritics by NFKD
-    norm = unicodedata.normalize('NFKD', text)
-    text = ''.join(c for c in norm if not unicodedata.combining(c))
     return text
 
 
@@ -171,14 +158,13 @@ class Generator:
     def ensure_preamble(self):
         content = r"""\documentclass[10pt,a4paper,notitlepage]{article}
 \usepackage{hyperref}
-\usepackage[english, activeacute]{babel}
+\usepackage[spanish,es-tabla]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{listings}
-\usepackage{listingsutf8}
 \usepackage{listingsutf8}
 \usepackage{amssymb}
 \usepackage[usenames,dvipsnames]{color}
@@ -219,17 +205,14 @@ class Generator:
     basewidth={0.47em,0.40em},
     columns=fixed, fontadjust, resetmargins, xrightmargin=5pt, xleftmargin=15pt,
     flexiblecolumns=false, tabsize=2, breaklines, breakatwhitespace=false, extendedchars=true,
-    inputencoding=utf8,
+    inputencoding=utf8/latin1,
     numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=9pt,
     frame=l, framesep=3pt,
     basicstyle=\ttfamily,
     keywordstyle=\color{darkblue}\ttfamily,
     stringstyle=\color{magenta}\ttfamily,
     commentstyle=\color{OliveGreen}\ttfamily,
-    morecomment=[l][\color{Purple}]{\#},
-    literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'\i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
-             {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
-             {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {ü}{{\"u}}1 {Ü}{{\"U}}1
+    morecomment=[l][\color{Purple}]{\#}
 }
 
 \lstdefinestyle{C++}{
@@ -239,6 +222,7 @@ class Generator:
     basewidth={0.47em,0.40em},
     columns=fixed, fontadjust, resetmargins, xrightmargin=5pt, xleftmargin=15pt,
     flexiblecolumns=false, tabsize=2, breaklines, breakatwhitespace=false, extendedchars=true,
+    inputencoding=utf8/latin1,
     numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=9pt,
     frame=l, framesep=3pt,
     basicstyle=\ttfamily,
@@ -289,18 +273,18 @@ class Generator:
 
         for folder, files in sections.items():
             lines.append(f"\\section{{{self._to_title_case(folder)}}}\n")
-            # descripción de carpeta
+            # descripción de carpeta (como LaTeX directo)
             folder_desc = templates.get(folder, {}).get("description", "").strip()
             if folder_desc:
-                lines.append(f"\\textit{{{folder_desc}}}\\\n")
+                lines.append(f"{folder_desc}\n\n")
             for f in files:
                 title = self._to_title_case(f.stem)
                 lines.append(f"\\subsection{{{title}}}\n")
-                # descripción de archivo
+                # descripción de archivo (como LaTeX directo)
                 file_desc = templates.get(folder, {}).get(f.stem, "").strip()
                 if file_desc:
-                    lines.append(f"\\textit{{{file_desc}}}\\\n")
-                # Siempre crear copia saneada sin tildes/ñ
+                    lines.append(f"{file_desc}\n\n")
+                # Crear copia con UTF-8 normalizado (preservando acentos)
                 tmp_dir = (self.paths.build_dir / "sanitized_include")
                 tmp_dir.mkdir(parents=True, exist_ok=True)
                 out_path = tmp_dir / f.name
@@ -313,6 +297,7 @@ class Generator:
                             code = raw.decode('cp1252')
                         except UnicodeDecodeError:
                             code = raw.decode('latin-1', errors='replace')
+                    # Solo sanitizar BOM y caracteres de control, preservar acentos
                     code = sanitize_text(code)
                     out_path.write_text(code, encoding='utf-8', newline='\n')
                 except Exception as e:

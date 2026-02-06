@@ -34,6 +34,10 @@
     
     \texttt{T twice = area(poly); Real A = fabsl((Real)twice) / 2.0;}
     
+    \item \textbf{¿Cuándo un triángulo es degenerado?}
+    
+    Un triángulo con vértices $a, b, c$ es degenerado (área = 0) si: (1) sus puntos son colineales \texttt{sign(cross(b-a, c-a)) == 0}, o (2) con lados $a, b, c$, falla la desigualdad triangular estricta ($a+b > c, a+c > b, b+c > a$), i.e., $a+b = c$ (se aplana).
+    
     \item \textbf{¿Punto sobre el borde de un polígono?}
     
     Recorrer lados $[i, i+1]$, verificar si \texttt{pointOnSeg(p, Line(ai, aj))}.

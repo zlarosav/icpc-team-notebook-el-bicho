@@ -6,7 +6,7 @@
 \centering{\LARGE\textbf{El Bicho}}\\[0.5cm]
 \centering{DondeEstasCR7}\\[0.5cm]
 \centering{\includegraphics[width=5.5cm]{img/cr7.jpg}}\\[0.5cm]
-\centering{18/11/2025}\\[0.2cm]
+\centering{06/02/2026}\\[0.2cm]
 \tableofcontents
 \newpage
 
@@ -61,9 +61,7 @@ OJO: Es necesario usar binpow con MOD primo
 \cppfile{build/sanitized_include/LCS.cpp}
 
 \section{Geometry}
-\subsection{Convex Hull}
-\cppfile{build/sanitized_include/Convex Hull.cpp}
-\subsection{Point Operations}
+\subsection{2D Geometry}
 \textbf{Cookbook Geometría 2D} - Operaciones con Puntos, Vectores, Líneas y Polígonos
 
 \vspace{0.3cm}
@@ -99,6 +97,10 @@ OJO: Es necesario usar binpow con MOD primo
     \item \textbf{Área de un polígono (ordenado CCW o CW)}
     
     \texttt{T twice = area(poly); Real A = fabsl((Real)twice) / 2.0;}
+    
+    \item \textbf{¿Cuándo un triángulo es degenerado?}
+    
+    Un triángulo con vértices $a, b, c$ es degenerado (área = 0) si: (1) sus puntos son colineales \texttt{sign(cross(b-a, c-a)) == 0}, o (2) con lados $a, b, c$, falla la desigualdad triangular estricta ($a+b > c, a+c > b, b+c > a$), i.e., $a+b = c$ (se aplana).
     
     \item \textbf{¿Punto sobre el borde de un polígono?}
     
@@ -157,7 +159,9 @@ OJO: Es necesario usar binpow con MOD primo
     \item Al leer entrada: \texttt{Point p; cin >\hspace{0pt}> p;} (operador sobrecargado)
 \end{itemize}
 
-\cppfile{build/sanitized_include/Point_Operations.cpp}
+\cppfile{build/sanitized_include/2D_Geometry.cpp}
+\subsection{Convex Hull}
+\cppfile{build/sanitized_include/Convex Hull.cpp}
 
 \section{Graph}
 Algoritmos de grafos: DFS, BFS, componentes fuertemente conexas, y otras estructuras de datos para problemas de grafos.
@@ -188,8 +192,10 @@ Algoritmos de grafos: DFS, BFS, componentes fuertemente conexas, y otras estruct
 Algoritmo de Tarjan para encontrar componentes fuertemente conexas (SCC) en un grafo dirigido.
 
 \cppfile{build/sanitized_include/SCC.cpp}
-\subsection{Topological Sort}
-\cppfile{build/sanitized_include/Topological Sort.cpp}
+\subsection{Topo Sort Dfs}
+\cppfile{build/sanitized_include/Topo_Sort_DFS.cpp}
+\subsection{Topo Sort Kahns Bfs}
+\cppfile{build/sanitized_include/Topo_Sort_Kahns_BFS.cpp}
 
 \section{Manhattan Distance}
 \subsection{Farthest Pair Of Points}

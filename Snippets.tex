@@ -6,7 +6,7 @@
 \centering{\LARGE\textbf{El Bicho}}\\[0.5cm]
 \centering{DondeEstasCR7}\\[0.5cm]
 \centering{\includegraphics[width=5.5cm]{img/cr7.jpg}}\\[0.5cm]
-\centering{06/02/2026}\\[0.2cm]
+\centering{19/02/2026}\\[0.2cm]
 \tableofcontents
 \newpage
 
@@ -224,14 +224,50 @@ Phi(n) = contar la cantidad de numero coprimos entre 1 a n
 \cppfile{build/sanitized_include/Sum_of_Divisors.cpp}
 
 \section{Numerical Methods}
-\subsection{Calculating The Determinant Of A Matrix By Gauss}
-\cppfile{build/sanitized_include/Calculating the determinant of a matrix by Gauss.cpp}
-\subsection{Gauss Method For Solving System Of Linear Equations}
-\cppfile{build/sanitized_include/Gauss method for solving system of linear equations.cpp}
-\subsection{Gauss Solving Modular Slae}
-\cppfile{build/sanitized_include/Gauss Solving modular SLAE.cpp}
-\subsection{Integration By Simpson'S Formula}
-\cppfile{build/sanitized_include/Integration by Simpson's formula.cpp}
+\subsection{Sumas Notables}
+\begin{itemize}
+    \item \textbf{Suma de los primeros n números naturales (Gauss)}
+    \[ \sum_{i=1}^{n} i = 1 + 2 + 3 + \dots + n = \frac{n(n+1)}{2} \]
+    
+    \item \textbf{Suma de los primeros n números pares}
+    \[ \sum_{i=1}^{n} 2\cdot i = 2 + 4 + 6 + \dots + 2n = n(n+1) \]
+    
+    \item \textbf{Suma de los primeros n números impares}
+    \[ \sum_{i=1}^{n} (2\cdot i - 1) = 1 + 3 + 5 + \dots + (2n - 1) = n^2 \]
+
+    \item \textbf{Suma de los primeros n cubos}
+    \[ \sum_{i=1}^{n} i^3 = 1^3 + 2^3 + 3^3 + \dots + n^3 = \frac{n^2(n+1)^2}{4} \]
+
+    \item \textbf{Suma de cuadrados}
+    \[ \sum_{i=1}^{n} i^2 = 1^2 + 2^2 + 3^2 + \dots + n^2 = \frac{n(n+1)(2n+1)}{6} \]
+
+    \item \textbf{Suma de potencias cuartas}
+    \[ \sum_{i=1}^{n} i^4 = 1^4 + 2^4 + 3^4 + \dots + n^4 = \frac{n(n+1)(2n+1)(3n^2+3n-1)}{30} \]
+
+    \item \textbf{Serie Geométrica (Finita)}
+    \[ \sum_{i=0}^{n} a \cdot r^i = a + ar + ar^2 + \dots + ar^n = \frac{a(r^{n+1} - 1)}{r - 1} \quad (r \neq 0, r \neq 1) \]
+
+    \item \textbf{Serie Geométrica (Infinita)}
+    \[ \sum_{i=0}^{\infty} a \cdot r^i = a + ar + ar^2 + \dots = \frac{a}{1 - r} \quad (|r| < 1) \]
+
+    \item \textbf{Suma potencias de 1/2 (Infinita)}
+    \[ \sum_{i=1}^{\infty} \left(\frac{1}{2}\right)^i = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots= 1 \]
+
+    \item \textbf{Suma $i \cdot 2^i$}
+    \[ \sum_{i=1}^{n} i \cdot 2^i = 1\cdot 2^1 + 2\cdot 2^2 + 3\cdot 2^3 + \dots + n\cdot 2^n = (n - 1)2^{n+1} + 2 \]
+
+    \item \textbf{Suma $i / 2^i$}
+    \[ \sum_{i=1}^{n} \frac{i}{2^i} = \frac{1}{2} + \frac{2}{4} + \frac{3}{8} + \dots + \frac{n}{2^n} = 2 - \frac{n+2}{2^n} \]
+\end{itemize}
+
+\subsection{Determinant Of A Matrix}
+\cppfile{build/sanitized_include/Determinant of a matrix.cpp}
+\subsection{Linear Equations}
+\cppfile{build/sanitized_include/Linear equations.cpp}
+\subsection{Modular Slae}
+\cppfile{build/sanitized_include/Modular SLAE.cpp}
+\subsection{Simpson'S Integration}
+\cppfile{build/sanitized_include/Simpson's Integration.cpp}
 
 \section{String}
 \subsection{Kmp}

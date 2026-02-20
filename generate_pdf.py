@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+r"""
 Generate PDF from C++ snippets using an external preamble (preamble.tex)
 and \cppfile macro for including listings.
 """

@@ -1,3 +1,4 @@
+// Integration by Simpson's formula
 const int N = 1000 * 1000; // number of steps (already multiplied by 2)
 
 double simpson_integration(double a, double b){

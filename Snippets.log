@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.6)  6 FEB 2026 07:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.6)  19 FEB 2026 19:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/zlaro/OneDrive/Desktop/icpc-team-notebook-el-bicho/Snippets.tex
-(C:/Users/zlaro/OneDrive/Desktop/icpc-team-notebook-el-bicho/Snippets.tex
+**c:/Users/zlaro/Desktop/icpc-team-notebook-el-bicho/Snippets.tex
+(c:/Users/zlaro/Desktop/icpc-team-notebook-el-bicho/Snippets.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (preamble.tex
@@ -528,7 +528,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<img/cr7.jpg, id=247, 338.76563pt x 365.11406pt>
+<img/cr7.jpg, id=251, 338.76563pt x 365.11406pt>
 File: img/cr7.jpg Graphic file (type jpg)
 <use img/cr7.jpg>
 Package pdftex.def Info: img/cr7.jpg  used on input line 8.
@@ -1595,31 +1595,14 @@ coding ?) on input line 55.
 LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
 ncoding ?) on input line 57.
 )
-(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2024/02/08 v1.3d Input encoding file
-LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
-ding ?) on input line 47.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
-oding ?) on input line 48.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
-encoding ?) on input line 49.
-LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
-s (encoding ?) on input line 50.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
-ng ?) on input line 51.
-LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
-g ?) on input line 53.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
-coding ?) on input line 55.
-LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
-ncoding ?) on input line 57.
-)
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
 
-[35] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+[35{C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
+nc}{C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.e
+nc}] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2024/02/08 v1.3d Input encoding file
 LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
 ding ?) on input line 47.
@@ -1638,10 +1621,10 @@ coding ?) on input line 55.
 LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
 ncoding ?) on input line 57.
 )
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 
 [36] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2024/02/08 v1.3d Input encoding file
@@ -1662,48 +1645,10 @@ coding ?) on input line 55.
 LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
 ncoding ?) on input line 57.
 )
-(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2024/02/08 v1.3d Input encoding file
-LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
-ding ?) on input line 47.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
-oding ?) on input line 48.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
-encoding ?) on input line 49.
-LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
-s (encoding ?) on input line 50.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
-ng ?) on input line 51.
-LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
-g ?) on input line 53.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
-coding ?) on input line 55.
-LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
-ncoding ?) on input line 57.
-)
-(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2024/02/08 v1.3d Input encoding file
-LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
-ding ?) on input line 47.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
-oding ?) on input line 48.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
-encoding ?) on input line 49.
-LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
-s (encoding ?) on input line 50.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
-ng ?) on input line 51.
-LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
-g ?) on input line 53.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
-coding ?) on input line 55.
-LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
-ncoding ?) on input line 57.
-)
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 
 [37] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2024/02/08 v1.3d Input encoding file
@@ -1724,10 +1669,48 @@ coding ?) on input line 55.
 LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
 ncoding ?) on input line 57.
 )
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
 
 [38] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2024/02/08 v1.3d Input encoding file
@@ -1748,17 +1731,41 @@ coding ?) on input line 55.
 LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
 ncoding ?) on input line 57.
 )
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
 
-[39]
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
- [40] 
+[39] (C:\Users\zlaro\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+
+[40]
+LaTeX Info: Redefining \. on input line 280.
+LaTeX Info: Redefining \% on input line 280.
+LaTeX Info: Redefining \. on input line 280.
+LaTeX Info: Redefining \% on input line 280.
+ [41] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (Snippets.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -1769,26 +1776,31 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `Snippets.out' has not changed.
-(rerunfilecheck)             Checksum: 6292E7BE804722BFCC9E370D576558CB;7646.
+(rerunfilecheck)             Checksum: 4C7D86A6D51D17BB7BA034ED4839CDAF;7312.
  ) 
 Here is how much of TeX's memory you used:
- 17702 strings out of 467871
- 279551 string characters out of 5418377
+ 17713 strings out of 467871
+ 279387 string characters out of 5418377
  1463266 words of memory out of 5000000
- 44184 multiletter control sequences out of 15000+600000
+ 44188 multiletter control sequences out of 15000+600000
  672964 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,12n,90p,445b,2613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,90p,360b,2613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
+b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
 b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pf
-b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><
-C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><
-C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Snippets.pdf (40 pages, 743860 bytes).
+b><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb
+><C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
+<C:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C
+:/Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/
+Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/
+Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
+Users/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/U
+sers/zlaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Snippets.pdf (41 pages, 788171 bytes).
 PDF statistics:
- 2947 PDF objects out of 2984 (max. 8388607)
- 2064 named destinations out of 2073 (max. 500000)
- 494 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2988 PDF objects out of 3580 (max. 8388607)
+ 2069 named destinations out of 2073 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 

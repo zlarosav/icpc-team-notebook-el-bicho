@@ -6,7 +6,7 @@ for (int i = 0; i < n; i++) cin >> a[i];
 // encontrar primera posición >= target
 int l = 0, r = n - 1, first_pos = n;
 while (l <= r) {
-  int mid = (l + r) / 2;
+  int mid = l + (r - l) / 2;
   if (a[mid] >= target) {
     first_pos = mid;
     r = mid - 1;
@@ -19,7 +19,7 @@ while (l <= r) {
 l = 0, r = n - 1;
 int last_pos = -1;
 while (l <= r) {
-  int mid = (l + r) / 2;
+  int mid = l + (r - l) / 2;
   if (a[mid] <= target) {
     last_pos = mid;
     l = mid + 1;
@@ -35,7 +35,7 @@ function<bool(int)> check = [&](int x) {
 l = 0, r = 1e9;
 int ans = -1;
 while (l <= r) {
-  int mid = (l + r) / 2;
+  int mid = l + (r - l) / 2;
   if (check(mid)) {
     ans = mid;
     l = mid + 1; // o r = mid - 1 dependiendo del problema

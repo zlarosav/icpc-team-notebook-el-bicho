@@ -52,11 +52,12 @@
 \contentsline {subsection}{\numberline {9.7}Sieve Bitset}{34}{subsection.9.7}%
 \contentsline {subsection}{\numberline {9.8}Sum Of Divisors}{35}{subsection.9.8}%
 \contentsline {section}{\numberline {10}Numerical Methods}{35}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Calculating The Determinant Of A Matrix By Gauss}{35}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Gauss Method For Solving System Of Linear Equations}{36}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Gauss Solving Modular Slae}{37}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Integration By Simpson'S Formula}{37}{subsection.10.4}%
-\contentsline {section}{\numberline {11}String}{37}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Kmp}{37}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Trie}{38}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Z Algorithm}{39}{subsection.11.3}%
+\contentsline {subsection}{\numberline {10.1}Sumas Notables}{35}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Determinant Of A Matrix}{36}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Linear Equations}{37}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Modular Slae}{38}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Simpson'S Integration}{38}{subsection.10.5}%
+\contentsline {section}{\numberline {11}String}{38}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Kmp}{38}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Trie}{39}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Z Algorithm}{40}{subsection.11.3}%

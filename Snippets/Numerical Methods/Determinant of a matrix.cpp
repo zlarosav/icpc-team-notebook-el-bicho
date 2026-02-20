@@ -1,3 +1,4 @@
+// Calculating the determinant of a matrix by Gauss
 const double EPS = 1E-9;
 int n;
 vector < vector<double> > a (n, vector<double> (n));

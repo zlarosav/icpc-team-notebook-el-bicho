@@ -1,4 +1,4 @@
-// Divisores de N: Hasta N = 10^6
+// Divisores de N: Hasta N = 10^15 - O(sqrt(N))
 vector<int> divisores(int N) {
   vector<int> divs;
   for (int d = 1; d * d <= N; d++) {
@@ -10,7 +10,7 @@ vector<int> divisores(int N) {
   return divs;
 }
 
-// Factorizacion de N: Hasta N = 10^6
+// Factorizacion de N: Hasta N = 10^15 - O(sqrt(N))
 vector<pair<int, int>> factorizar(int N) {
   vector<pair<int, int>> facts;
   for (int p = 2; p * p <= N; p++) {
@@ -27,7 +27,7 @@ vector<pair<int, int>> factorizar(int N) {
   return facts;
 }
 
-// Primalidad: Hasta N = 10^6 - O(sqrt(N))
+// Primalidad: Hasta N = 10^15 - O(sqrt(N))
 bool isPrime(int N) {
   if (N < 2) return false;
   for (int d = 2; d * d <= N; d++) {

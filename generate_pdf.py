@@ -9,6 +9,7 @@ import sys
 import subprocess
 import datetime
 import logging
+import shutil
 import unicodedata
 import re
 from dataclasses import dataclass, field
@@ -113,6 +114,9 @@ class PDFCompiler:
         self._latex_path = self._find_latex()
 
     def _find_latex(self) -> str:
+        direct = shutil.which(self.latex_cmd)
+        if direct:
+            return direct
         try:
             result = subprocess.run([self.latex_cmd, "--version"], capture_output=True, text=True, timeout=5)
             if result.returncode == 0:
@@ -120,6 +124,7 @@ class PDFCompiler:
         except (subprocess.TimeoutExpired, FileNotFoundError):
             pass
         candidates = [
+            "tectonic",
                 "/Library/TeX/texbin/pdflatex",
                 "/usr/local/texlive/current/bin/universal-darwin/pdflatex",
                 "/usr/local/texlive/2025/bin/universal-darwin/pdflatex",
@@ -133,16 +138,20 @@ class PDFCompiler:
             r"C:\\Program Files (x86)\\MiKTeX\\miktex\\bin\\win32\\pdflatex.exe",
         ]
         for p in candidates:
-            if Path(p).exists():
-                logging.info(f"✅ Encontrado pdflatex en: {p}")
+            candidate = shutil.which(p) if p == "tectonic" else Path(p)
+            if (isinstance(candidate, str) and candidate) or (isinstance(candidate, Path) and candidate.exists()):
+                logging.info(f"✅ Encontrado compilador LaTeX en: {p}")
                 return p
-        logging.warning(f"⚠️ No se encontró pdflatex en ubicaciones conocidas, usando: {self.latex_cmd}")
+        logging.warning(f"⚠️ No se encontró compilador LaTeX en ubicaciones conocidas, usando: {self.latex_cmd}")
         return self.latex_cmd
 
     def compile(self, tex_file: Path) -> bool:
         try:
-            cmd = [self._latex_path, "-interaction=nonstopmode", "-shell-escape", str(tex_file)]
-            subprocess.run(cmd, check=True, capture_output=True, text=True)
+            if Path(self._latex_path).name == "tectonic":
+                cmd = [self._latex_path, str(tex_file.name)]
+            else:
+                cmd = [self._latex_path, "-interaction=nonstopmode", "-shell-escape", str(tex_file.name)]
+            subprocess.run(cmd, check=True, capture_output=True, text=True, cwd=str(tex_file.parent))
             return True
         except subprocess.CalledProcessError as e:
             logging.error("Error compilando PDF")
@@ -161,8 +170,93 @@ class Generator:
         self.collector = SnippetCollector(self.paths.snippets_dir)
         self.compiler = PDFCompiler()
 
-    def ensure_preamble(self):
-        content = r"""\documentclass[10pt,a4paper,notitlepage]{article}
+    def ensure_preamble(self, engine: str = "pdflatex"):
+        if engine == "tectonic":
+            content = r"""\documentclass[10pt,a4paper,notitlepage]{article}
+\usepackage{hyperref}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{listingsutf8}
+\usepackage{amssymb}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{makeidx}
+
+%%% Margenes
+\addtolength{\textheight}{1.5in}
+\addtolength{\topmargin}{-0.75in}
+
+\addtolength{\textwidth}{1.8in}
+\addtolength{\oddsidemargin}{-0.9in}
+
+\setlength{\headsep}{0.08in}
+\setlength{\parskip}{0in}
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{0mm}
+
+%%% Encabezado y pie de pagina
+\pagestyle{fancy}
+\fancyhead[LO]{\textbf{\title}}
+\fancyhead[C]{\leftmark\ -\ \rightmark}
+\fancyhead[RO]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot{}
+\definecolor{darkblue}{rgb}{0,0,0.4}
+%%% Configuracion de Listings
+\lstloadlanguages{C++}
+\lstnewenvironment{code}
+    {\csname lst@SetFirstLabel\endcsname}
+    {\csname lst@SaveFirstLabel\endcsname}
+\lstset{% general command to set parameter(s)
+    language=C++, basicstyle=\small\ttfamily, keywordstyle=\slshape,
+    emph=[1]{tipo,usa}, emphstyle={[1]\sffamily\bfseries},
+    morekeywords={tint,forn,forsn,fore},
+    basewidth={0.47em,0.40em},
+    columns=fixed, fontadjust, resetmargins, xrightmargin=5pt, xleftmargin=15pt,
+    flexiblecolumns=false, tabsize=2, breaklines, breakatwhitespace=false, extendedchars=true,
+    numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=9pt,
+    frame=l, framesep=3pt,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{darkblue}\ttfamily,
+    stringstyle=\color{magenta}\ttfamily,
+    commentstyle=\color{OliveGreen}\ttfamily,
+    morecomment=[l][\color{Purple}]{\#}
+}
+
+\lstdefinestyle{C++}{
+    language=C++, basicstyle=\small\ttfamily, keywordstyle=\slshape,
+    emph=[1]{tipo,usa,tipo2}, emphstyle={[1]\sffamily\bfseries},
+    morekeywords={tint,forn,forsn,fore},
+    basewidth={0.47em,0.40em},
+    columns=fixed, fontadjust, resetmargins, xrightmargin=5pt, xleftmargin=15pt,
+    flexiblecolumns=false, tabsize=2, breaklines, breakatwhitespace=false, extendedchars=true,
+    numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=9pt,
+    frame=l, framesep=3pt,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{darkblue}\ttfamily,
+    stringstyle=\color{magenta}\ttfamily,
+    commentstyle=\color{OliveGreen}\ttfamily,
+    morecomment=[l][\color{Purple}]{\#}
+}
+
+%%% Macros
+\def\nbtitle#1{\begin{Large}\begin{center}\textbf{#1}\end{center}\end{Large}}
+\def\nbsection#1{\section{#1}}
+\def\nbsubsection#1{\subsection{#1}}
+\def\nbcoment#1{\begin{small}\textbf{#1}\end{small}}
+\newcommand{\comb}[2]{\left( \begin{array}{c} #1 \\ #2 \end{array}\right)}
+\def\complexity#1{\texorpdfstring{$\mathcal{O}(#1)$}{O(#1)}}
+\newcommand\cppfile[2][]{{
+    \lstinputlisting[style=C++,#1]{\detokenize{#2}}
+}}
+"""
+        else:
+            content = r"""\documentclass[10pt,a4paper,notitlepage]{article}
 \usepackage{hyperref}
 \usepackage[spanish,es-tabla]{babel}
 \usepackage[utf8]{inputenc}
@@ -258,7 +352,7 @@ class Generator:
         return src
 
     def build_tex(self) -> str:
-        self.ensure_preamble()
+        self.ensure_preamble("tectonic" if Path(self.compiler._latex_path).name == "tectonic" else "pdflatex")
         sections = self.collector.collect()
         templates = TemplateManager(self.paths.snippets_dir).read_all()
         today = datetime.datetime.now().strftime(self.config.date_format)

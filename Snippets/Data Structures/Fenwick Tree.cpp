@@ -1,37 +1,29 @@
-struct FenwickTree {
-  vector<long long> tree;
+template <typename T>
+struct FenwickTree{
+  vector<T> bit;
   int n;
-  
-  FenwickTree(int size) : n(size + 1) {
-    tree.assign(n, 0);
-  }
-  
-  void update(int idx, long long delta) {
-    for (idx++; idx < n; idx += idx & -idx) {
-      tree[idx] += delta;
+  FenwickTree(int n) : bit(n, 0), n(n) {}
+
+  FenwickTree(const vector<T>& a) : bit(int(a.size()), 0), n(a.size()){
+    for(int i = 0; i < n; i++){
+      update(i, a[i]);
     }
   }
-  
-  long long query(int idx) {
-    long long sum = 0;
-    for (idx++; idx > 0; idx -= idx & -idx) {
-      sum += tree[idx];
-    }
-    return sum;
+
+  void update(int idx, T delta){
+    for(; idx < n; idx = idx | (idx + 1))
+      bit[idx] += delta;
   }
-  
-  long long range_query(int l, int r) {
+
+  T query(int r){ // summation in range of 0 to i
+    T ret = 0;
+    for(; r >= 0; r = (r & (r + 1)) - 1)
+      ret += bit[r];
+    return ret;
+  }
+
+  T query(int l, int r){
     return query(r) - query(l - 1);
   }
 };
-
-// uso:
-// int n; cin >> n;
-// FenwickTree ft(n);
-// for (int i = 0; i < n; i++) {
-//   long long x; cin >> x;
-//   ft.update(i, x);
-// }
-// ft.update(idx, delta); // actualizar elemento en idx
-// long long sum = ft.range_query(l, r); // suma en rango [l, r]
 

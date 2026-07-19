@@ -120,6 +120,12 @@ class PDFCompiler:
         except (subprocess.TimeoutExpired, FileNotFoundError):
             pass
         candidates = [
+                "/Library/TeX/texbin/pdflatex",
+                "/usr/local/texlive/current/bin/universal-darwin/pdflatex",
+                "/usr/local/texlive/2025/bin/universal-darwin/pdflatex",
+                "/usr/local/texlive/2024/bin/universal-darwin/pdflatex",
+                "/opt/homebrew/texlive/2025/bin/universal-darwin/pdflatex",
+                "/opt/homebrew/texlive/2024/bin/universal-darwin/pdflatex",
             r"C:\\Users\\zlaro\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
             r"C:\\Program Files\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
             r"C:\\Program Files (x86)\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",

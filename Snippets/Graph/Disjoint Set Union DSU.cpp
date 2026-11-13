@@ -7,7 +7,7 @@ struct DSU {
 
 	int find(int x){
 		if(p[x] != x) p[x] = find(p[x]);
-		return x;
+		return p[x];
 	}
 
 	void merge(int x, int y){
